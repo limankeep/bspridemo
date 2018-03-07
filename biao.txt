@@ -1,0 +1,19 @@
+user  用户表
+id   account userid  password 
+
+user_info  用户信息表
+id   userid  name  user_level email address  create_time update_time
+
+reader     读者表
+id userid  name booktotal bookyue 
+
+book       图书表
+id   bookid  book_name
+
+book_info  图书信息表
+id   bookid
+
+jieyue     借阅表
+id   jieyueid
+
+
